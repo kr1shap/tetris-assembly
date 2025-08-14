@@ -2,6 +2,12 @@
 CSCB58 S25' final project. Tetris implemented in the best language, assembly!!! Utilizes the MIPS-32 ISA. 
 
 ## ‼️ Features
+<p align="center">
+ <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/37643002-2b1a-491c-abf9-4abd33b46461" />
+ <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/ec6069e4-c3de-45c2-9381-4d7bdc4c8dd8" />
+ <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/cfba9873-b315-4b83-bd85-d18426603bd3" />
+
+</p>
 
 * **Clean UI**: All pieces and the board are drawn directly to the framebuffer.
 * **Gameplay Mechanics**:
@@ -9,7 +15,7 @@ CSCB58 S25' final project. Tetris implemented in the best language, assembly!!! 
   * Piece rotation using the rotation matrix (no manual rotation done here!)
   * Line clearing with animation
   * Gravity with increasing speed over time
-  * Nice, implemented UI
+  * Nice, implemented UI using different colours, game state screens and an overall nice look
 * **Full Set of Tetriminos**: Implements all 7 classic Tetris shapes.
 
 ## 💫 Extra Features
