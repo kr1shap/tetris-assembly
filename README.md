@@ -1,5 +1,5 @@
 # Tetris | MIPS-32 Assembly
-CSCB58 S25' final project. Tetris implemented in the best language, assembly!!! Utilizes the MIPS-32 ISA. 
+Tetris implemented in the best language, assembly!!! Utilizes the MIPS-32 ISA. 
 
 ## ‼️ Features
 <p align="center">
