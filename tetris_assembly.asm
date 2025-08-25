@@ -1,50 +1,14 @@
 #####################################################################
-# CSCB58 Summer 2025 Assembly Final Project - UTSC
-# Krisha Patel
 # Bitmap Display Configuration:
-# - Unit width in pixels: 16 (update this as needed) 
-# - Unit height in pixels: 16 (update this as needed)
-# - Display width in pixels: 512 (update this as needed)
-# - Display height in pixels: 512 (update this as needed)
+# - Unit width in pixels: 16 
+# - Unit height in pixels: 16 
+# - Display width in pixels: 512 
+# - Display height in pixels: 512 
 # - Base Address for Display: 0x10008000 ($gp)
-#
-# Which milestones have been reached in this submission?
-# (See the assignment handout for descriptions of the milestones)
-# - Milestone 5 (choose the one that applies)
-#
-# Which approved features have been implemented?
-# (See the assignment handout for the list of features)
-# EASY FEATURES
-#1. Implement gravity, so that each second that passes will automatically move the tetromino down #one row.
-#2. Assuming that gravity has been implemented, have the speed of gravity increase gradually over
-#time, or after the player completes a certain number of rows.
-#3. Add sound effects for different conditions like rotating and dropping Tetrominoes, and for winning
-#and game over.
-#4. If the player presses the keyboard key p, display a “Paused” message on screen until they press
-#p a second time, at which point the original game will resume.
-#5. Have a panel on the side that displays a preview of the next tetromino that will appear (see
-#Figure 2.1a).
-#6. When the player has reached the “game over” condition, display a Game Over screen in pixels
-#on the screen. Restart the game if a “retry” option is chosen by the player. Retry should start
-#a brand-new game (no state is retained from previous attempts).
-#HARD FEATURES
-#7. Track and display the player’s score, which is based on how many lines have been completed
-#so far. This score needs to be displayed in pixels, not on the console display.
-#8. Implement the full set of tetrominoes.
-#9. Add some animation to lines when they are completed (e.g. make them go poof).
 # How to play:
 # WASD -> typical movements (W = rotate, S = down, A/D = left and right)
 # Q -> Quit game, P -> Pause game, R -> Restart Game
-# Link to video demonstration for final submission:
-# https://youtu.be/prbFt9lTNss
-# Any additional information that the TA needs to know:
-# HIGHLY recommend trying it out on Saturn (the github web version)! I demo it on there, and has the least visual glitches for me.
-# I wrote this entirely on Saturn, where it is fully functioning. I assume it will work on MARS, but based on what I've seen on Piazza, it seems there may be issues.
-# Again to say, this is fully functional on Saturn (web version). If it doesn't work on MARS then it must be some type of local issue which I am not aware of.
 #####################################################################
-
-##############################################################################
-
 .data
 ##############################################################################
 # Immutable Data
